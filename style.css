@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 .navbar {
-  padding: 15px;
+  padding: 15px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,7 +23,7 @@ body {
 .middle ul li {
   list-style: none;
   font-family: cursive;
-  font-size: 17px;
+  font-size: 20px;
 }
 span {
   font-family: cursive;
@@ -57,7 +57,24 @@ span {
   border: none;
 }
 .heroSection {
-  /* background: red; */
+  background: white;
   display: flex;
+  align-items: center;
+  padding: 15px 100px;
   justify-content: center;
+}
+.details {
+  padding: 35px;
+  margin: 35px;
+}
+.details h1 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "santserret", sans-serif;
+}
+.details p {
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-family: cursive;
 }

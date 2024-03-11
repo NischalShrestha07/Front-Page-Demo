@@ -23,11 +23,11 @@ body {
 .middle ul li {
   list-style: none;
   font-family: cursive;
-  font-size: 23px;
+  font-size: 17px;
 }
 span {
   font-family: cursive;
-  font-size: 20px;
+  font-size: 17px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,8 +36,23 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
 }
 .sign ul li {
   list-style: none;
+  font-family: cursive;
+  font-size: 16px;
+  font-weight: 550;
+}
+.btn1 {
+  background: #d23da9;
+  padding: 12px;
+  font-size: 15px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  color: white;
+  font-family: cursive;
+  font-style: italic;
+  border: none;
 }

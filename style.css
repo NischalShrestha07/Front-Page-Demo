@@ -49,7 +49,8 @@ span {
   cursor: pointer;
 }
 .btn1 {
-  background: #d23da9;
+  /* background: #d23da9; */
+  background-image: linear-gradient(pink, voilet);
   padding: 12px;
   font-size: 15px;
   border-bottom-left-radius: 25px;
@@ -62,6 +63,25 @@ span {
   cursor: pointer;
 }
 .btn1:hover {
+  background: rgb(234, 3, 3);
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px black;
+}
+.btn2 {
+  margin-top: 15px;
+  background: #d23da9;
+  padding: 18px 60px;
+  font-size: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  color: white;
+  font-family: cursive;
+  font-style: italic;
+  border: none;
+  cursor: pointer;
+}
+.btn2:hover {
   background: rgb(234, 3, 3);
   border: 1px solid black;
   box-shadow: 1px 1px 1px black;

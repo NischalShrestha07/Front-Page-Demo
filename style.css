@@ -56,3 +56,8 @@ span {
   font-style: italic;
   border: none;
 }
+.heroSection {
+  background: red;
+  display: flex;
+  justify-content: center;
+}

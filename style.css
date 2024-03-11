@@ -57,7 +57,7 @@ span {
   border: none;
 }
 .heroSection {
-  background: red;
+  /* background: red; */
   display: flex;
   justify-content: center;
 }

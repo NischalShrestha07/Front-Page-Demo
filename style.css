@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.navbar {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+}
+.middle ul li {
+  list-style: none;
+  font-family: cursive;
+  font-size: 23px;
+}
+span {
+  font-family: cursive;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.sign ul li {
+  list-style: none;
+}
